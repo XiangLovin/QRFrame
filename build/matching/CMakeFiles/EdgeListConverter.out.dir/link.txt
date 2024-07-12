@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\EdgeListConverter.out.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\EdgeListConverter.out.dir/objects.a @CMakeFiles\EdgeListConverter.out.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe  -std=c++11 -O3 -g -Wall -march=native -pthread -Wl,--whole-archive CMakeFiles\EdgeListConverter.out.dir/objects.a -Wl,--no-whole-archive -o EdgeListConverter.out.exe -Wl,--out-implib,libEdgeListConverter.out.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\EdgeListConverter.out.dir\linkLibs.rsp

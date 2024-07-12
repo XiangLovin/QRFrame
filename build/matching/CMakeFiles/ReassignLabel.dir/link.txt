@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ReassignLabel.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\ReassignLabel.dir/objects.a @CMakeFiles\ReassignLabel.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe  -std=c++11 -O3 -g -Wall -march=native -pthread -Wl,--whole-archive CMakeFiles\ReassignLabel.dir/objects.a -Wl,--no-whole-archive -o ReassignLabel.exe -Wl,--out-implib,libReassignLabel.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ReassignLabel.dir\linkLibs.rsp
